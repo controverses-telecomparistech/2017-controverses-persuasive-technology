@@ -1,0 +1,9 @@
+2003:Dans son article, l’auteur évoque plusieurs principes primordiaux afin de rendre une technologie persuasive : il y a tout d’abord le principe d’attractivité selon lequel une technologie qui est visuellement attractive pour l’utilisateur sera plus persuasive. Psychologiquement cela s’explique dans le fait que l’Homme tend à croire que si quelque chose est physiquement attractif alors elle possède aussi d’autres qualités admirables comme l’intelligence. Il y a ensuite le principe de similarité qui explique que l’Homme est plus persuadé par une technologie qui lui ressemble. Cela est du au fait que la perception par l’être humain d’une affiliation partagée rend l’ordinateur plus intelligent et fiable aux yeux de l’Homme. Enfin, en flattant l’utilisateur à travers des mots, des images et des symboles, une technologie peut devenir plus persuasive. https://pdfs.semanticscholar.org/09f1/a254c78ba0fefb01a75be971340d29d2c036.pdf
+2006:Persuasive technologies can be useful to modify behaviors related to energy usage. http://link.springer.com/chapter/10.1007/11755494_18
+01/2017: Captology: B.J.Frogg, directeur de Stanford Persuasive Tech Lab explique comment les géants arrivaient à créer une routine d'utilisation, malgré des gestes qui peuvent parraitre simples : https://qz.com/877795/how-to-create-new-good-habits-according-to-stanford-psychologist-b-j-fogg/
+04/2017 : Focus sur Tristan Harris, « le repenti de la Silicon Valley » (ex salarié de Google). Lutte contre les persuasives technologies en donnant des conseils sur comment ne pas se faire avoir par les géants qui les utilisent. : http://www.grazia.fr/article/qui-est-tristan-harris-le-repenti-de-la-silicon-valley-851137
+
+
+
+
+	
