@@ -1,29 +1,24 @@
 /*STYLE CSS PAGE D'ACCUEIL*/
 
 /*MISE EN PAGE GLOBALE*/
-/*marges colonnes*/
+/*marges colonnes de texte*/
 div.row {
-	margin : 20px 0 30px 0;
+	margin : 5px 0 5px 0;
+}
+/*marges colonnes pricipales*/
+div.bigRow {
+	margin : 60px 0 0px 0;
 }
 /*marges colonnes*/
 div.mainPage{
-	margin-top: 40px;
+	margin: 40px 0 80px 0;
 }
 /**************/
-
-/*NAVBAR*/
-/*marges colonnes*/
-i.material-icons{
-	font-size: 22px;
-	color : red;
-}
-
-
 
 /*texte titre*/
 h2 {
 	margin-top: 0;
-	padding-top: 50px;
+	padding: 50px 0 30px 0;
 	font-size: 50px;
 	color: rgb(75, 75, 75);
 }
@@ -36,13 +31,16 @@ p.article {
     font-family: verdana;
     font-size: 16px;
     text-align: justify;
+    margin : 0 0 5px 0;
+}
+p.indent{
+	text-indent: 30px;
 }
 /*image vignette*/
-div img {
+img {
     max-width: 100%;
     max-height: auto;
-    vertical-align: middle;
-    margin-bottom: 20px;
+	vertical-align: middle;
 }
 /***************/
 
