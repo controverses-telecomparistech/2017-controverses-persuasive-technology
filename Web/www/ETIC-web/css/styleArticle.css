@@ -41,14 +41,36 @@ p.article {
     text-align: justify;
     margin : 0 0 5px 0;
 }
+
 p.indent{
 	text-indent: 30px;
 }
+
+p.legende{
+	font-style: italic;
+}
+
+li{
+	margin : 20px 0 20px 0 ;
+}
+
+/*.frame{
+  	margin: 0 auto;
+	display:table;
+}*/
+
+/*.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}*/
+
 /*image vignette*/
 img {
     max-width: 100%;
     max-height: auto;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+	margin: 0 auto;
 }
 /***************/
 
