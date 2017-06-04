@@ -1,0 +1,108 @@
+
+
+/* page frise */
+
+.container {
+	width: 1300px;
+	
+}
+
+.frise {
+	position: relative;
+	overflow-x: scroll;
+	margin:50px 50px 50px 50px;
+}
+
+.infos-content {
+	position: absolute;
+	width: 400px;
+
+}
+
+.info-texte {
+	opacity: 0;
+	background-color: #eee8e4;
+	padding: 5px 10px 10px 10px;
+	text-align: justify;
+}
+
+p.bouton{
+	margin: 0 0 0 0;
+}
+
+
+input[type="checkbox"] {
+	opacity: 1;
+	position: absolute;
+	top: 5px;
+	left: -18px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+/*input[type="checkbox"]:hover + div + div {
+	background-color: red;
+	border: 2px solid blue;
+}*/
+
+input[type="checkbox"]:checked + div  {
+	opacity: 1;
+}
+
+/*.puce {
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	margin: 0 auto;
+	background-color: blue;
+	border: 2px solid red;
+	position: absolute;
+	bottom: 200px;
+	left: -3%;
+}*/
+
+.content-1 {
+	top: 179px;
+	left: 263px;
+}
+
+
+.content-2 {
+	top: 301px;
+	left: 379px;
+}
+
+.content-3 {  
+	top: 178px;
+	left: 845px;
+}
+
+.content-4 {  
+	top: 253px;
+	left: 919px;
+}
+
+/*.content-3 .info-texte {
+	position: relative;
+	top: 365px;
+}*/
+
+
+/* page documentatio */
+
+.glyphicon.glyphicon-info-sign {
+	color: green;
+}
+
+
+.glyphicon.glyphicon-info-sign:hover {
+	color: orange;
+}
+
+
+
+
+
+
+
+
