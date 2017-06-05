@@ -5,6 +5,10 @@
 div.row {
 	margin : 20px 0 30px 0;
 }
+
+div.bigRow {
+    margin : 60px 0 0px 0;
+}
 /*marges colonnes*/
 div.mainPage{
 	margin-top: 40px;
@@ -44,25 +48,48 @@ i {
 
 /*TITRE*/
 /*image titre*/
-div.container_title{
-	background: url(../img/snapchat.jpg) no-repeat center;
-	height: 500px;
+div.container-fluid{
+    padding: 0 0 0 0;
 }
+
+div.col-titre{
+    padding: 0 0 0 0;
+}
+
+div.container_title{
+	background: url(../img/socialMedia.jpg) no-repeat center;
+	height: 500px;
+    opacity: 0.8;
+    /*position: absolute;*/
+}
+
 /*texte titre*/
 h2 {
 	margin-top: 0;
-	padding-top: 50px;
-	font-size: 50px;
-	color: rgb(75, 75, 75);
+	font-size: 80px;
+    font-family: Georgia;
+	/*color: rgb(153, 204, 255)*/
+}
+
+div.jumbotron{
+    top : 70px;
+    position: absolute;
+    opacity: 0.85;
+    z-index: 10;
+    text-align: center;
+    left : 0%;
+    width : 100%;
+
 }
 /************/
 
 /*ZONE DE TEXTE INTERMEDIAIRE*/
 /*paragraphe*/
 p.homePage {
-    color: darkgrey;
+    color: rgb(75, 75, 75);
     font-family: verdana;
     font-size: 16px;
+    text-align: justify;
 }
 /*image vignette*/
 div img {
