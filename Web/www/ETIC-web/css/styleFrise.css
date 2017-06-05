@@ -27,6 +27,7 @@
 	background-color: #eee8e4;
 	padding: 5px 10px 10px 10px;
 	text-align: justify;
+	z-index: -1;
 }
 
 /*mise en forme du bouton de lien*/
@@ -34,18 +35,37 @@ p.bouton{
 	margin: 0 0 0 0;
 }
 
+/*par defaut en savoir plus est invisible et non cliquable*/
+a.btn[checked="false"]{
+	cursor: default;
+	user-select: none;
+	touch-action: none;
+	pointer-events: none;
+}
+
+
 /*mise en forme des checkbox*/
 input[type="checkbox"] {
 	opacity: 0;
 	position: absolute;
 	top: 5px;
 	left: -18px;
-	z-index: 10;
+	z-index: 30;
 	cursor: pointer;
 }
 
 input[type="checkbox"]:checked + div  {
 	opacity: 1;
+	z-index: 20;
+}
+
+/*permet de rendre visible et cliquable le bouton en savoir plus*/
+
+input[type="checkbox"]:checked + div > p > a.btn  {
+	pointer-events: auto;
+	touch-action: auto;
+	user-select: auto;
+	cursor: pointer;
 }
 
 /*position des commentaires + checkboxs*/
@@ -64,6 +84,7 @@ input[type="checkbox"]:checked + div  {
 .content-3 {  
 	top: 178px;
 	left: 845px;
+	z-index: 20;
 }
 
 .content-4 {  
