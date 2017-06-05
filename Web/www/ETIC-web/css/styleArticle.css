@@ -27,6 +27,14 @@ h3 {
 	padding: 0 0 30px 0;
 }
 
+h3.entretien{
+	padding: 20px 0 10px 0 ;
+}
+
+h3.entretien1{
+	padding: 40px 0 10px 0 ;
+}
+
 h4{
 	padding:0 0 20px 0 ;
 }
@@ -50,9 +58,34 @@ p.legende{
 	font-style: italic;
 }
 
-li{
-	margin : 20px 0 20px 0 ;
+p.indication{
+	font-size: 16px;
+	font-style: italic;
+	color: rgb(75, 75, 75);
 }
+
+p.bouton{
+	margin: 0 0 0 0;
+}
+
+p.reponse{
+	color: rgb(75, 75, 75);
+    font-family: verdana;
+    font-size: 16px;
+    text-align: justify;
+    margin : 15px 0 0 0;
+}
+
+li.question{
+	list-style-type: square;
+	margin : 0 0 0 0;
+	font-style: italic;
+	font-size: 18px;
+	margin: 30px 0 0 0 ;
+}
+
+/*li.question:before{content: '>' ;
+}*/
 
 /*.frame{
   	margin: 0 auto;
