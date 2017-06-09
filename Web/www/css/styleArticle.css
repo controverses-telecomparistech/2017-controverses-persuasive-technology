@@ -1,0 +1,133 @@
+/*STYLE CSS PAGE D'ACCUEIL*/
+
+/*MISE EN PAGE GLOBALE*/
+/*marges colonnes de texte*/
+div.row {
+	margin : 0px 0 0px 0;
+}
+/*marges colonnes pricipales*/
+div.bigRow {
+	margin : 60px 0 0px 0;
+}
+/*marges colonnes*/
+div.mainPage{
+	margin: 40px 0 80px 0;
+}
+/**************/
+
+/*texte titre*/
+h2 {
+	margin-top: 0;
+	padding: 50px 0 30px 0;
+	font-size: 50px;
+	color: rgb(75, 75, 75);
+}
+
+h3 {
+	padding: 0 0 30px 0;
+}
+
+h3.entretien{
+	padding: 20px 0 10px 0 ;
+}
+
+h3.entretien1{
+	padding: 40px 0 10px 0 ;
+}
+
+h4{
+	padding:0 0 20px 0 ;
+}
+/************/
+
+/*ZONE DE TEXTE INTERMEDIAIRE*/
+/*paragraphe*/
+p.article {
+    color: rgb(75, 75, 75);
+    font-family: verdana;
+    font-size: 16px;
+    text-align: justify;
+    margin : 0 0 0px 0;
+}
+
+p.indent{
+	text-indent: 30px;
+}
+
+p.legende{
+	font-style: italic;
+	padding: 10px
+}
+
+p.indication{
+	font-size: 16px;
+	font-style: italic;
+	color: rgb(75, 75, 75);
+}
+
+p.bouton{
+	margin: 0 0 0 0;
+}
+
+p.reponse{
+	color: rgb(75, 75, 75);
+    font-family: verdana;
+    font-size: 16px;
+    text-align: justify;
+    margin : 15px 0 0 0;
+}
+
+/* image vignette s adaptant au texte*/
+.alignright	{
+	float: right;
+	display: inline;
+	margin: 1em 0 1em 2em;
+}
+
+.alignleft {
+	float: left;
+	display: inline;
+	margin: 1em 2em 1em 0;
+}
+
+
+/**************************/
+
+li.question{
+	list-style-type: square;
+	margin : 0 0 0 0;
+	font-style: italic;
+	font-size: 18px;
+	margin: 30px 0 0 0 ;
+}
+
+/*mise en forme de la fin de l'article de expertise scientifique*/
+li.science{
+	padding-top: 5px
+}
+
+
+/*image vignette*/
+img {
+    max-width: 100%;
+    max-height: auto;
+	/*vertical-align: middle;*/
+	margin: 0 auto;
+}
+/***************/
+
+/*FOOTER*/
+/*épaisseur du footeur*/
+footer{
+	padding: 30px;
+}
+/*alignement des objets du footer*/
+footer li{
+	display: inline-block;
+	margin: 10px;
+	padding:0 20px 0 20px;
+}
+/*********************/
+
+/* pour faire des commentaires*/
+

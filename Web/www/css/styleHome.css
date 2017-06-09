@@ -1,0 +1,105 @@
+/*STYLE CSS PAGE D'ACCUEIL*/
+
+/*MISE EN PAGE GLOBALE*/
+/*marges colonnes*/
+div.row {
+	margin : 20px 0 30px 0;
+}
+
+div.bigRow {
+    margin : 60px 0 0px 0;
+}
+/*marges colonnes*/
+div.mainPage{
+	margin-top: 40px;
+}
+/**************/
+
+/*NAVBAR*/
+/*marges colonnes*/
+i.material-icons{
+	font-size: 22px;
+	color : red;
+}
+
+.alignright {
+    float: right;
+    display: inline;
+    margin: 1em 0 1em 2em;
+}
+
+.alignleft {
+    float: left;
+    display: inline;
+    margin: 1em 2em 1em 0;
+}
+
+/*TITRE*/
+/*image titre*/
+div.container-fluid{
+    padding: 0 0 0 0;
+}
+
+div.col-titre{
+    padding: 0 0 0 0;
+}
+
+div.container_title{
+	background: url(../img/socialMedia.jpg) no-repeat center;
+	height: 500px;
+    opacity: 0.8;
+    /*position: absolute;*/
+}
+
+/*texte titre*/
+h2 {
+	margin-top: 0;
+	font-size: 80px;
+    font-family: Georgia;
+	/*color: rgb(153, 204, 255)*/
+}
+
+div.jumbotron{
+    top : 70px;
+    position: absolute;
+    opacity: 0.85;
+    z-index: 10;
+    text-align: center;
+    left : 0%;
+    width : 100%;
+
+}
+/************/
+
+/*ZONE DE TEXTE INTERMEDIAIRE*/
+/*paragraphe*/
+p.homePage {
+    color: rgb(75, 75, 75);
+    font-family: verdana;
+    font-size: 16px;
+    text-align: justify;
+}
+/*image vignette*/
+div img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+/***************/
+
+/*FOOTER*/
+/*épaisseur du footeur*/
+footer{
+	padding: 30px;
+}
+/*alignement des objets du footer*/
+footer li{
+	display: inline-block;
+	margin: 10px;
+	padding:0 20px 0 20px;
+}
+/*********************/
+
+/* pour faire des commentaires*/
+
